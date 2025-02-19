@@ -1,7 +1,8 @@
 .card-row {
     margin: 0 auto;
-    max-width: 80%;
-    padding: 60px 0;
+    /* max-width: 80%; */
+    padding: 60px 30px;
+    background-color: rgb(47, 141, 121);
 }
 
 .card-row__card-wrapper {
@@ -19,6 +20,7 @@
     width: 32%;
 }
 
+/* Card one */
 .card-row__card:nth-of-type(3n + 1) {
     background-color: #2E2960;
 }
